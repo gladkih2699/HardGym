@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'GothicA1';
+    src: url('@/assets/fonts/GothicA1-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('@/assets/fonts/BlackOpsOne-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'RussoOne';
+    src: url('@/assets/fonts/RussoOne-Regular.woff2');
+}
+
+// Переменные со шрифтами
+$text-primary: 'GothicA1', sans-serif;
+$text-secondary: 'RussoOne', sans-serif;
+$text-logo: 'BlackOpsOne', sans-serif;
+
+// Переменные с цветами
+$color-white: #E8E8E8;
+$color-dark: #1B1B25;
+$color-purple: #776AFE;
+$color-light: #E4E2FF;
